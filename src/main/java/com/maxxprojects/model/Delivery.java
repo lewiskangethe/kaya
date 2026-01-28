@@ -8,6 +8,8 @@ public class  Delivery {
     private LocalDateTime startTime;
     private LocalDateTime endTime;
 
+    public Delivery(){}
+
     public Delivery(Long orderId, Long robotId, LocalDateTime startTime, LocalDateTime endTime) {
         this.orderId = orderId;
         this.robotId = robotId;

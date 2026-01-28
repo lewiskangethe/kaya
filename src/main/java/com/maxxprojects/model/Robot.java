@@ -6,6 +6,8 @@ public class Robot {
     private double speed;
     private int batteryLevel;
 
+    public Robot(){}
+
     public Robot(Long id, RobotStatus status, double speed, int batteryLevel) {
         this.id = id;
         this.status = status;
